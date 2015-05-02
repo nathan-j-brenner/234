@@ -3,6 +3,9 @@
 	width: 300px;
 	margin: 0 auto;
 }
+.jumbotron {
+	background-color: white;
+}
 td {
 	padding: 10px;
 }
