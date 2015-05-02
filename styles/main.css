@@ -1,0 +1,16 @@
+#logo {
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+}
+td {
+	padding: 10px;
+}
+
+#tour {
+	text-align: center;
+}
+.profilePic {
+	height: 420px;
+	width: 600px;
+}
