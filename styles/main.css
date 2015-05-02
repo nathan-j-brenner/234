@@ -14,3 +14,15 @@ td {
 	height: 420px;
 	width: 600px;
 }
+iframe {
+	height: 360px;
+	width: 640px;
+	padding-top: 100px;
+}
+img[src*=".svg"] {
+	height: 45px;
+	width: 45px;
+}
+footer{
+	text-align: center;
+}

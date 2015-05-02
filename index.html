@@ -29,32 +29,39 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand text-muted" href="#myCarousel">234th Army Band</a>
+        <a class="navbar-brand text-muted" href="#logo">234th Army Band</a>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#myCarousel">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Tour</a></li>
-              <li><a href="#">Performing Groups</a></li>
-              <li><a href="#">History</a></li>
+              <li><a href="#tour">Tour</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Performing Groups <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#empireBuilders">Empire Builders</a></li>
+                  <li><a href="#brassOps">Brass Ops</a></li>
+                  <li><a href="#generalDischord">General Dischord</a></li>
+                  <li><a href="#rockSteady">Rock Steady</a></li>
+                </ul>
+              </li>
             </ul>
         </div>
       </div>
     </div>
     <!-- End Navbar -->
     <!-- Jumbotron -->
-    <div class=".container-fluid">
-  		<div class="row">
-  			<div class="col-md-4">
-  				<img id="logo"  class= "img-responsive center block" src="images/234logo.jpg">
-  			</div>
-  			<div col="col-md-8">
-  				<h1>Welcome</h1>
-  				<p>Serving the State of Oregon, our Nation, and our local communities since 1919, the Citizen-Soldiers of the 234th Army Band provide music for all occasions.</p>
-  				<p>The 234th Army Band is a unit of the Oregon Army National Guard. The Band consists of a full Concert Band comprising 40 members, as well as smaller ensembles or Music Performance Teams (MPTs) including "Rock Steady", our rock/pop band; "Brass Ops", our brass band, and our woodwind/chamber ensemble "General Dischord".</p>
-  			</div>
-  		</div>
-  	</div>
+    <div class="jumbotron">
+      <div class=".container-fluid">
+    		<div class="row">
+    			<div class="col-md-4">
+    				<img id="logo"  class= "img-responsive center block" src="images/234logo.jpg">
+    			</div>
+    			<div class="col-md-8">
+    				<h1>Welcome</h1>
+    				<p>Serving the State of Oregon, our Nation, and our local communities since 1919, the Citizen-Soldiers of the 234th Army Band provide music for all occasions.</p>
+    				<p>The 234th Army Band is a unit of the Oregon Army National Guard. The Band consists of a full Concert Band comprising 40 members, as well as smaller ensembles or Music Performance Teams (MPTs) including "Rock Steady", our rock/pop band; "Brass Ops", our brass band, and our woodwind/chamber ensemble "General Dischord".</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
     <!-- Carousel -->
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     		<!-- Indicators -->
@@ -97,7 +104,7 @@
       </a>
   	</div>
     <!-- Tour Table -->
-    <div class="panel panel-default">
+    <div class="panel panel-default" id="tour">
       <div class="panel-heading">
         <h1 class="panel-title" id="tour">2015 Tour Dates</h1>
       </div>
@@ -228,54 +235,60 @@
     </div>
     <!-- mpt bios -->
     <div class=".container-fluid">
-      <div class="row">
+      <div class="row" id="empireBuilders">
         <div class="col-md-5">
           <h2>Empire Builders</h2>
           <img src="https://www.facebook.com/profile.php?id=42004880" alt="Brass Ops" class="profilePic">
         </div>
-        <div col="col-md-7">
-          <h1>Welcome</h1>
-          <p>Serving the State of Oregon, our Nation, and our local communities since 1919, the Citizen-Soldiers of the 234th Army Band provide music for all occasions.</p>
-          <p>The 234th Army Band is a unit of the Oregon Army National Guard. The Band consists of a full Concert Band comprising 40 members, as well as smaller ensembles or Music Performance Teams (MPTs) including "Rock Steady", our rock/pop band; "Brass Ops", our brass band, and our woodwind/chamber ensemble "General Dischord".</p>
+        <div class="col-md-7">
+          <iframe src="https://www.youtube.com/embed/TaW03F9TZQk" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="brassOps">
         <div class="col-md-5">
           <h2>Brass Ops</h2>
           <img src="images/promo_04.jpg" alt="Brass Ops" class="profilePic" >
         </div>
-        <div col="col-md-6">
+        <div class="col-md-6">
           <h1>Welcome</h1>
           <p>Serving the State of Oregon, our Nation, and our local communities since 1919, the Citizen-Soldiers of the 234th Army Band provide music for all occasions.</p>
           <p>The 234th Army Band is a unit of the Oregon Army National Guard. The Band consists of a full Concert Band comprising 40 members, as well as smaller ensembles or Music Performance Teams (MPTs) including "Rock Steady", our rock/pop band; "Brass Ops", our brass band, and our woodwind/chamber ensemble "General Dischord".</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row" id="generalDischord">
+        <div class="col-md-5">
           <h1>General Dischord</h1>
           <img src="images/promo_11.jpg" alt="General Dischord" class="profilePic">
         </div>
-        <div col="col-md-8">
-          <h1>Welcome</h1>
-          <p>Serving the State of Oregon, our Nation, and our local communities since 1919, the Citizen-Soldiers of the 234th Army Band provide music for all occasions.</p>
-          <p>The 234th Army Band is a unit of the Oregon Army National Guard. The Band consists of a full Concert Band comprising 40 members, as well as smaller ensembles or Music Performance Teams (MPTs) including "Rock Steady", our rock/pop band; "Brass Ops", our brass band, and our woodwind/chamber ensemble "General Dischord".</p>
+        <div class="col-md-6">
+          <iframe src="https://www.youtube.com/embed/uM0bxNPvJps" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row" id="rockSteady">
+        <div class="col-md-5">
           <h1>Rock Steady</h1>
           <img src="images/promo_17.jpg" alt="Rock Steady" class="profilePic">
         </div>
-        <div col="col-md-8">
+        <div class="col-md-6">
           <h1>Welcome</h1>
           <p>Serving the State of Oregon, our Nation, and our local communities since 1919, the Citizen-Soldiers of the 234th Army Band provide music for all occasions.</p>
           <p>The 234th Army Band is a unit of the Oregon Army National Guard. The Band consists of a full Concert Band comprising 40 members, as well as smaller ensembles or Music Performance Teams (MPTs) including "Rock Steady", our rock/pop band; "Brass Ops", our brass band, and our woodwind/chamber ensemble "General Dischord".</p>
         </div>
       </div>
     </div>
-    <footer>
-      
-    </footer>
+      <footer>
+          <p>&copy; Nathan Brenner 2015
+            <a href="http://www.music.army.mil/organizations/pages/default.asp?unit=234AB">
+              <img src="images/US_Army_logo.svg">
+            </a>
+            <a href="https://www.facebook.com/234thArmyBand?fref=ts">
+              <img class="social_media" title="Facebook" alt="Facebook" src="images/facebook29.svg"/>
+            </a>
+            <a href="https://www.youtube.com/user/Oregon234armyband">
+              <img src="images/youtube11.svg" />
+            </a>
+          </p>
+      </footer>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
